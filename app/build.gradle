@@ -1,0 +1,78 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+apply from: "utils.gradle"
+
+android {
+    namespace 'com.example.pistalix.watoolkit'
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.pistalix.watoolkit"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0.1"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+
+        buildConfigField 'String', 'MAIN_API', toJavaCodeString(MAIN_API)
+        buildConfigField 'String', 'API', toJavaCodeString(API)
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def contentProviderAuthority = applicationId+ ".stickercontentprovider"
+        // Creates strings placeholder property to use in the manifest.
+        manifestPlaceholders =
+                [contentProviderAuthority: contentProviderAuthority]
+        // Adds strings new field for the authority to the BuildConfig class.
+        buildConfigField("String",
+                "CONTENT_PROVIDER_AUTHORITY",
+                "\"${contentProviderAuthority}\"")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        dataBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.hbb20:ccp:2.5.1'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+    implementation 'com.android.volley:volley:1.2.1'
+
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+    implementation 'com.google.android.gms:play-services-ads:21.5.0'
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.5.1"
+
+    implementation 'com.orhanobut:hawk:2.0.1'
+    implementation "com.airbnb.android:lottie:3.4.0"
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+}

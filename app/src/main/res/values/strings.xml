@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">WAToolkit</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="appopen_ads">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="splash_ads1">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="splash_ads2">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="splash_ads3">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ads1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ads2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ads3">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ads1">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_ads2">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_ads3">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_ads1">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="native_ads2">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="native_ads3">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="reward_ads1">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="reward_ads2">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="reward_ads3">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="visit" translatable="false">visit</string>
+    <string name="ad" translatable="false">AD</string>
+    <string name="loading_ad" translatable="false">loading_ad</string>
+
+    <string name="todo">Todo</string>
+    <string name="tab1">Status</string>
+    <string name="tab2">Saved</string>
+    <string name="deleted_chat">Deleted\nChat</string>
+    <string name="directchat">Direct\nChat</string>
+    <string name="status_saver">Status\nSaver</string>
+    <string name="whatsapp_shake">Whatsapp\nShake</string>
+    <string name="stylish_font">Stylish\nFont</string>
+    <string name="emoji_collection">Emoji\nCollection</string>
+    <string name="font_keyboard">Font\nKeyboard</string>
+    <string name="text_repeater">Text\nRepeater</string>
+    <string name="text_emoji">Text\nTo Emoji</string>
+    <string name="text_decorative">Text\nDecorative</string>
+    <string name="whatsapp_sticker">Whatsapp\nSticker</string>
+    <string name="Directchat">Direct Chat</string>
+    <string name="Select_country_code">Select country code and enter mobile number to start chat.</string>
+    <string name="entermessage">Enter Message</string>
+    <string name="enternumber">Enter Number</string>
+    <string name="enter_number">Please Enter Number</string>
+    <string name="enter_valid_number">Please Enter Valid Number</string>
+    <string name="send">Start Chat</string>
+    <string name="msg_share">share msg</string>
+    <string name="Appnotinstalled">Whatsapp is not installed</string>
+    <string name="msgValidation">Please enter the message..</string>
+    <string name="textValidation">Please enter the text..</string>
+    <string name="mobileNoValidation">Please enter the mobile number..</string>
+    <string name="numberValidation">Please enter the valid mobile number..</string>
+    <string name="numberValidation1">Please enter the valid mobile number..</string>
+    <string name="shake_to_open_whatsapp">Shake to Open WhatsApp</string>
+    <string name="enable_this_feature_to_access_whatsapp_by_shaking_your_devices_anywhere_anytime">Enable this feature to access WhatsApp by Shaking your devices anywhere,anytime!</string>
+    <string name="this_is_just_a_simple_feature_that_allow_you_to_access_whatsapp_with_quick_shortcut_just_shake_your_phone_to_perform_this_shortcut_please_note_it_takes_3_4_second_to_work_if_you_are_using_at_the_home_screen">This is just a simple feature that allow you to access WhatsApp with quick shortcut.. Just shake your Phone to perform this shortcut. please note it takes 3-4 second to work if you are using at the home Screen!</string>
+    <string name="whatsappshakeopen">Whatsapp Shake Open</string>
+    <string name="submit">submit</string>
+    <string name="enter_text_here">Enter Text Here</string>
+    <string name="Text">text</string>
+    <string name="StylishFontActivity">StylishFont</string>
+    <string name="create">Create</string>
+    <string name="TextDecorativeActivity">TextDecoration</string>
+    <string name="text">Text..</string>
+    <string name="to">To</string>
+    <string name="emoji">Emoji</string>
+    <string name="convert">Transform</string>
+    <string name="share">Share</string>
+    <string name="sharemsg">Hey! Download the WAToolkit app to get a diverse range of WhatsApp tools. It\'s an excellent app.\n https://play.google.com/store/apps/details?id= </string>
+    <string name="clear">Clear</string>
+    <string name="copy">Copy</string>
+    <string name="TextToEmojiActivity">TextToEmoji</string>
+    <string name="required_permission">Grant Permission</string>
+    <string name="statussaver">Status Saver</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download">Download</string>
+    <string name="Folder_not_exist">Folder not exist</string>
+    <string name="Chattext">Nothing to copy please enter the Text!</string>
+    <string name="Emojivalid">Nothing to copy please enter the Emoji!</string>
+    <string name="Emojishare">Nothing to share</string>
+    <string name="chatcopy">Nothing to copy</string>
+    <string name="PatternCopy">Pattern Copy</string>
+    <string name="CopiedText">Copied Text</string>
+    <string name="share_valid">Nothing to share please enter the Text!</string>
+    <string name="share_valid_number">Nothing to share please enter the number!</string>
+    <string name="share_emoji">Nothing to share please enter the Emoji!</string>
+    <string name="share_via">share via</string>
+    <string name="downloadstarted">Download Started...</string>
+
+
+    <string name="view_webpage">View webpage</string>
+    <string name="add_button_content_description">Add sticker pack to WhatsApp</string>
+    <string name="add_to_whatsapp">Add to \nWhatsApp</string>
+    <string name="details_pack_already_added">Sticker pack added to WhatsApp</string>
+    <string name="dot">•</string>
+    <string name="error_network_no_internet">No Internet connection</string>
+    <string name="error_view_oops">Oops</string>
+    <string name="error_view_retry">RETRY</string>
+    <string name="info_screen_tray_icon">Tray icon</string>
+    <string name="info_send_email_to_prompt">Send email with</string>
+    <string name="install_app_first">Installed application first</string>
+    <string name="more_info_button">More info about sticker pack</string>
+    <string name="no_image_found">No WhatsApp Status Images Found</string>
+    <string name="no_result_found">No result found</string>
+    <string name="no_url">No url</string>
+    <string name="no_videos_found">No WhatsApp Status Videos Found</string>
+    <string name="phone_code">+%s</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="replay">Replay</string>
+    <string name="search_hint">Search…</string>
+    <string name="select_country">Select Country</string>
+    <string name="send_email">Send email</string>
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
+    <string name="title_activity_sticker_pack_details_multiple_pack">Sticker Details</string>
+    <string name="title_activity_sticker_pack_list_main">Sticker List</string>
+    <string name="title_activity_sticker_pack_details_single_pack">Sticker Pack</string>
+    <string name="title_activity_sticker_pack_info">Info</string>
+    <string name="title_activity_sticker_packs_list">My WhatsApp Sticker App</string>
+    <string name="tray_image_content_description">Sticker Pack Tray Image</string>
+    <string name="loading">Loading Sticker…</string>
+    <string name="loadingmore">Loading …</string>
+    <string name="loading_emoji">Loading Emojis…</string>
+    <string name="download_emoji">Downloading Emoji…</string>
+    <string name="loading1">Loading…</string>
+    <string name="downloading">Downloading Sticker…</string>
+    <string name="animatedEmoji">AnimatedEmoji</string>
+    <string name="check_your_network_connection">Check Your Network Connection</string>
+    <string name="menubar">menubar</string>
+    <string name="sharewhatsapp">Whatsapp</string>
+    <string name="status">Status</string>
+    <string name="saved">Saved</string>
+    <string name="emojiValid">Please enter the Emoji!</string>
+
+
+    <string name="json_link">https://king-vid.sgp1.cdn.digitaloceanspaces.com/Status_Saver%2FSticker%2Fsticker_pack.json</string>
+    <string name="number">Repeat Times..</string>
+    <string name="Repeat">Repeat</string>
+    <string name="rate_app">Rate App</string>
+    <string name="shareapp">Share App</string>
+    <string name="more_app">More App</string>
+    <string name="allow_this_permission_to_use_this_feature">Allow the permission to use this feature.</string>
+    <string name="stylishfontvalid">Please enter the text..</string>
+    <string name="Exit">Exit</string>
+    <string name="No">No</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="emojiname">Emoji title</string>
+
+
+</resources>

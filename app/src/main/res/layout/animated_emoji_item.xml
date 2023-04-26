@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:strokeColor="@color/maincolor"
+        app:strokeWidth="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="12dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/seeMore"
+                android:weightSum="1">
+                <ImageView
+                    android:id="@+id/sticker_one"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/sticker_error"
+                    android:layout_weight="0.2"/>
+                <ImageView
+                    android:id="@+id/sticker_two"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/sticker_error"
+                    android:layout_weight="0.2"/>
+                <ImageView
+                    android:id="@+id/sticker_three"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sticker_error"
+                    android:layout_weight="0.2"/>
+                <ImageView
+                    android:id="@+id/sticker_four"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/sticker_error"
+                    android:layout_weight="0.2"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/seeMore"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_right_double">
+            </ImageView>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <RelativeLayout
+        android:id="@+id/relative_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/circleoutline"
+        android:elevation="10dp">
+        <TextView
+            android:id="@+id/emojiName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:paddingBottom="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="Emojis"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

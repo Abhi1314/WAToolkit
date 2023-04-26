@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ShakeDetectionActivity"
+        >
+        <RelativeLayout
+            android:id="@+id/mainRelative"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/ic_curve"
+            >
+
+            <include
+                layout="@layout/toolbar_layout"
+                android:id="@+id/toolBarLayout"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_below="@+id/mainRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="@string/enable_this_feature_to_access_whatsapp_by_shaking_your_devices_anywhere_anytime"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/shakebg"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_direct_chat" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchmode"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shakebg"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switchmode"
+            android:text="@string/this_is_just_a_simple_feature_that_allow_you_to_access_whatsapp_with_quick_shortcut_just_shake_your_phone_to_perform_this_shortcut_please_note_it_takes_3_4_second_to_work_if_you_are_using_at_the_home_screen"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <FrameLayout
+            android:id="@+id/ads_container"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/loading_ad"
+                android:textColor="@color/black90"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </RelativeLayout>
+</layout>
